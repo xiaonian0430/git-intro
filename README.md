@@ -20,21 +20,31 @@ git config --user.email "xiao@163.com"
 git clone https://github.com/xiaonian0430/git-intro.git
 ``
 
-**创建分支**
+**创建主分支**
 ```
-git branch -M master
-git branch -M develop
-```
+git branch master
 
-**切换分支**
-```
-git checkout master
-git checkout develop
-```
-
-**写入文件**
 添加代码库
 git add .
 
 添加备注
 git commit -m "说明文档"
+
+提交到远程仓库 
+git push origin master
+```
+
+**创建一个开发分支**
+```
+git branch develop
+
+切换到develop分支
+git checkout develop
+
+合并master代码
+git merge master
+```
+
+
+**查看分支列表**
+git branch 
