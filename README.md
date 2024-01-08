@@ -101,6 +101,7 @@ git status
 ```
 git log
 git log --pretty=oneline
+git log --graph
 ```
 
 **重置基准**
